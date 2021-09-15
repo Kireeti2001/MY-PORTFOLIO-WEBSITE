@@ -20,7 +20,7 @@ input,select{vertical-align:middle}
     position: fixed;
     height: 100%;
     width: 100%;
-    background-image: url(/assets/xpbackground.jpg);
+    background-image: url(/windows website/assests/xpbackground.jpg);
 	overflow: hidden;
     top: 0;
     bottom: 0;
@@ -202,11 +202,15 @@ input,select{vertical-align:middle}
 #window2 {	top: 250px; left: 300px;}
 #window3 {	top: 125px; left: 420px;}
 #window4 {	top: 125px; left: 420px;}
+#window5 {	top: 400px; left: 120px;}
+#window6 {	top: 400px; left: 120px;}
 #window0 .wincontent {	width: 660px; height: 400px;	}
 #window1 .wincontent {	width: 500px; height: 300px;	}
 #window2 .wincontent {	width: 800px; height: 500px;	}
-#window3 .wincontent {	width: 900px; height: 500px;	}
+#window3 .wincontent {	width: 700px; height: 280px;	}
 #window4 .wincontent {	width: 900px; height: 600px;	}
+#window5 .wincontent {	width: 660px; height: 400px;	}
+#window6 .wincontent {	width: 660px; height: 400px;	}
 
 .social
 {
