@@ -165,9 +165,9 @@ input,select{vertical-align:middle}
 	left: 10px;
 }
 #icons a {
-    background-color: #000000e1;
+    background-color: #F8D775;
   border: none;
-  color: white;
+  color: rgb(1, 39, 255);
   padding: 10px 20px;
   text-align: left;
   text-decoration: none;
@@ -177,8 +177,8 @@ input,select{vertical-align:middle}
   cursor: pointer;
 }
 #icons a:hover {
-	background: rgb(218, 241, 11);
-	color: rgb(250, 0, 0);
+	background: rgb(253, 135, 1);
+	color: rgb(10, 0, 0);
 }
 #templateLink {
     position: absolute;
@@ -258,3 +258,8 @@ li:before {
 	color: rgb(255, 0, 0);
 	margin-right: 0.25em;
 }
+#bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
