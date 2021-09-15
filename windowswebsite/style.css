@@ -49,7 +49,7 @@ input,select{vertical-align:middle}
     bottom: 32px !important;
 }
 .fullSizeWindow .ui-resizable-handle {
-	display: none;
+	display:flexbox ;
 }
 .windowHeader {
     background-color: #b7b7e0;
@@ -67,11 +67,11 @@ input,select{vertical-align:middle}
     cursor: pointer;
     border: 2px solid #000;
     margin-left: 4px;
-    font-size: 19px;
+    font-size: 20px;
     padding: 2px 10px;
     font-family: "Arial Black", Gadget, sans-serif;
     border-radius: 5px;
-    line-height: 20px;
+    line-height: -45px;
     width: 12px;
     height: 20px;
     position: relative;
@@ -93,9 +93,11 @@ input,select{vertical-align:middle}
 }
 .winminimize > span {
 	border-bottom: 3px solid #000;
+    position:sticky;
 }
 .winmaximize > span {
 	border: 2px solid #000;
+    position:sticky;
 	border-top: 3px solid #000;
 }
 .winmaximize > span:nth-child(2) {
@@ -198,8 +200,8 @@ input,select{vertical-align:middle}
   
 /*Demo styles BEGIN*/
 #window0 {	top: 20px;	left: 240px;}
-#window1 {	top: 400px; left: 120px;}
-#window2 {	top: 250px; left: 300px;}
+#window1 {	top: 200px; left: 300px;}
+#window2 {	top: 100px; left: 320px;}
 #window3 {	top: 125px; left: 420px;}
 #window4 {	top: 125px; left: 420px;}
 #window5 {	top: 400px; left: 120px;}
@@ -228,7 +230,7 @@ font-size: 20px;
 .social1
 {
   position: relative;
-  bottom: 470px;
+  bottom: 420px;
   left: 350px;
   width: 50px;
   height: 50px;
@@ -237,8 +239,8 @@ font-size: 20px;
 .socialtag1
 {
   position: relative;
-  bottom: 510px;
-  left: 430px;
+  bottom: 455px;
+  left: 420px;
 font-size: 20px;
 
 }
