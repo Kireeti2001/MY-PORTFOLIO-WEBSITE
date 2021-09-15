@@ -205,7 +205,7 @@ input,select{vertical-align:middle}
 #window3 {	top: 125px; left: 420px;}
 #window4 {	top: 125px; left: 420px;}
 #window5 {	top: 400px; left: 120px;}
-#window6 {	top: 400px; left: 120px;}
+#window6 {	top: 100px; left: 540px;}
 #window0 .wincontent {	width: 660px; height: 400px;	}
 #window1 .wincontent {	width: 500px; height: 300px;	}
 #window2 .wincontent {	width: 800px; height: 500px;	}
@@ -243,4 +243,18 @@ font-size: 20px;
   left: 420px;
 font-size: 20px;
 
+}
+ol {
+	list-style-type: none;
+	counter-reset: li;
+}
+li {
+	font-size: 18px;
+}
+
+li:before {
+  counter-increment: li;
+  content: counter(li, decimal-leading-zero);
+	color: rgb(255, 0, 0);
+	margin-right: 0.25em;
 }
