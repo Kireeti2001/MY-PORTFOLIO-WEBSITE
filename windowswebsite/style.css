@@ -74,22 +74,23 @@ input,select{vertical-align:middle}
     line-height: -45px;
     width: 12px;
     height: 20px;
-    position: relative;
+    position: sticky;
     overflow: hidden;
 }
 .windowHeader > span:hover {
 	background: rgba(255,255,255,0.3);
 }
 .windowHeader > span.winclose:hover {
+    height: fit-content;
 	background: #f15454;
 }
 .windowHeader > span > span {
-    display: inline-block;
-    height: 8px;
+    display: inline;
+    height: 7px;
     width: 10px;
     position: absolute;
-    top: 6px;
-    left: 10px;
+    top: 2px;
+    left: 5px;
 }
 .winminimize > span {
 	border-bottom: 3px solid #000;

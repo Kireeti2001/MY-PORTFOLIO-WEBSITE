@@ -142,6 +142,3 @@ $(document).ready(function(){
     });		
 	adjustFullScreenSize();	
 });
-
-var modal = document.getElementById("myModal");
-
