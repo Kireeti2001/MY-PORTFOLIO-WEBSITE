@@ -151,6 +151,12 @@ input,select{vertical-align:middle}
 .taskbarPanel.closed {
 	display: none;
 }
+#bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
 #taskbar {
 	position: absolute;
 	height: 32px;
