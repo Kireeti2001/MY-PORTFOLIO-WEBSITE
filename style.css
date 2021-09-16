@@ -67,25 +67,25 @@ input,select{vertical-align:middle}
     cursor: pointer;
     border: 2px solid #000;
     margin-left: 4px;
-    font-size: 20px;
-    padding: 2px 10px;
+    font-size: 15px;
+    padding: 4px 10px;
     font-family: "Arial Black", Gadget, sans-serif;
     border-radius: 5px;
     line-height: -45px;
     width: 12px;
     height: 20px;
-    position: sticky;
+    position:sticky;
     overflow: hidden;
 }
 .windowHeader > span:hover {
 	background: rgba(255,255,255,0.3);
 }
 .windowHeader > span.winclose:hover {
-    height: fit-content;
-	background: #f15454;
+    height:20px;
+	background: #ec3131;
 }
 .windowHeader > span > span {
-    display: inline;
+    display: inline-block;
     height: 7px;
     width: 10px;
     position: absolute;
@@ -93,12 +93,13 @@ input,select{vertical-align:middle}
     left: 5px;
 }
 .winminimize > span {
-	border-bottom: 3px solid #000;
+	border-bottom: 4px solid #000;
     position:sticky;
 }
 .winmaximize > span {
+    padding: 2px;
 	border: 2px solid #000;
-    position:sticky;
+    position:absolute;
 	border-top: 3px solid #000;
 }
 .winmaximize > span:nth-child(2) {
